@@ -117,18 +117,6 @@ router.get("/articles/:id", function(req, res) {
     });
   });
 
-  // router.post("/saved", function(req, res) {
-  //   //db.Article.find({ saved: true})
-  //   //.then(function(dbArticle) {
-  //     // If we were able to successfully find Articles, send them back to the client
-  //     res.json(req);
-  //   })
-  //   .catch(function(err) {
-  //     // If an error occurred, send it to the client
-  //     res.json(err);
-  //   });
- // });
-
 //Route for the main page
 router.get("/", function (req, res) {
   res.render("index");
